@@ -8,7 +8,7 @@ async function cargarUsuarios() {
 
 
 
-  const request = await fetch('usuario/1', {
+  const request = await fetch('usuarios', {
     method: 'GET',
     headers: {
       'Accept': 'application/json',
@@ -19,5 +19,9 @@ async function cargarUsuarios() {
 
   console.log(usuarios);
 
+  let usuario ='   <tr><td>123</td> <td>Tiger Nixon</td><td>Eltigrenixon@gmail.com</td><td>+59899664455</td><a href="#" class="btn btn-danger btn-circle btn-sm"><i class="fas fa-trash"></i></a></td></tr>'
+
+
+document.querySelector('#usuarios tbody').outerHTML = usuario;
 
 }
