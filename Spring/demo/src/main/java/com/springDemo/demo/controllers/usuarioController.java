@@ -58,8 +58,8 @@ public class usuarioController {
         usuario4.setId(4L);
         usuario4.setNombre("Fiorella");
         usuario4.setApellido("Santos");
-        usuario.setNumero("+59899789654");
-        usuario4.setNumero("santosfio@example.com");
+        usuario4.setNumero("+59899789654");
+        usuario4.setEmail("santosfio@example.com");
         usuario4.setPassword("123456");
 
         usuarios.add(usuario);

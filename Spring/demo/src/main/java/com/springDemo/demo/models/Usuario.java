@@ -32,15 +32,10 @@ public class Usuario {
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
-    public String getNumero() {
-
-        return numero;
+    public String getNumero() {return numero;
     }
 
-    public void setNumero(String numero) {
-        this.numero = numero;
-
-    }
+    public void setNumero(String numero) {this.numero = numero;}
 
     public String getEmail() {
         return email;
