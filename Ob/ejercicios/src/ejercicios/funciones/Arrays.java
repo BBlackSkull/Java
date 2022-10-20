@@ -16,7 +16,7 @@ public class Arrays {
         nombres[1] = nombre2;
         nombres[2] = nombre3;
         for(int i = 0; i < nombres2.length; i++){
-            System.out.println(nombres2[i]);
+            System.out.println(nombres2 [i]);
         }
 
     }
